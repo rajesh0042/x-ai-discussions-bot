@@ -1,0 +1,24 @@
+{
+  "search_queries": [
+    "\"AI launch\" -is:retweet lang:en",
+    "\"artificial intelligence\" -is:retweet lang:en",
+    "\"machine learning breakthrough\" -is:retweet lang:en",
+    "\"LLM release\" -is:retweet lang:en"
+  ],
+  "max_results_per_query": 100,
+  "minimum_followers": 50000,
+  "minimum_score": 50,
+  "report_limit": 10,
+  "weights": {
+    "followers": 0.3,
+    "retweets": 0.3,
+    "likes": 0.2,
+    "replies": 0.2
+  },
+  "metric_caps": {
+    "followers": 1000000,
+    "retweets": 1000,
+    "likes": 5000,
+    "replies": 500
+  }
+}
